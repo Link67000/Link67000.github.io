@@ -1,0 +1,312 @@
+#head {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background1{
+    position: fixed;
+    width: 100%;
+    height: 92vh;
+    object-fit: cover;
+}
+.container{
+    position:absolute;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.background{
+background: 
+url("BC2.png");
+top:100vh;
+}
+
+.EtudeBackground{
+background: 
+url("Etude.jpg");
+}
+
+.MusiqueBackground{
+background: 
+url("backgroundMusique.jpg");
+}
+
+.SportBackground{
+background: 
+url("SWwall.jpg");
+}
+
+
+.premierepart{
+color: #f0f8ff;
+height: 12vh;
+display: flex;
+margin-bottom: 1%;
+color: #fff;
+text-align: center;
+padding: 10px;
+width: 100%;
+top: 0;
+z-index: 10;
+
+}
+
+h1{
+margin-top: 0;
+font-size: 130%;
+padding: 1% 50% 0% 3%;
+width: 15%;
+display: flex;
+text-decoration: underline;
+}
+
+.image{
+padding-top: 10%;
+display: flex;
+width:30%;
+height: 70%;
+margin: auto;
+}
+ul{
+max-width: max-content;
+}
+li{
+    margin-bottom: 5%;
+}
+
+.smallspace{
+    margin-bottom: 2%;
+}
+source{
+display: flex;
+float: right;
+margin-left:5%;
+}
+body{
+background-color: #000000;
+font-family: 'Permanent Marker', cursive;  
+background-size: 100% 100vh;
+}
+
+.bouton{
+text-decoration: none;
+font-family: 'Permanent Marker', cursive;
+text-align: center;
+padding: 1% 1% 0% 1%;
+color: rgb(255, 255, 255);
+margin: auto;
+display: flex;
+float: right;
+width: 50%;
+height: 6vh;
+}
+
+.filtre{
+background-color: rgba(0, 0, 0, 0.4);
+z-index: -1;
+width: 100%;
+height:100vh;
+}
+
+.filtre2{
+background-color: rgba(0, 0, 0, 0.4);
+z-index: -1;
+width: 100%;
+height:100vh; 
+}
+
+#fulltext{
+position: absolute;
+color: white;
+z-index: 2;
+}
+
+
+
+h2{
+margin-bottom: 0;
+margin-top: 0;
+color:white;
+font-size: 55px;
+}
+
+
+.project{
+text-align: justify;
+font-size: larger;
+color:white;
+}
+
+.projectAccueil{
+float: right;
+margin-right: 10%;
+width :60%;
+}
+
+.projectEtude{
+
+width:80%;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5%;
+}
+
+img{
+margin-left: 10px;
+}
+
+
+
+h3{
+display: flex;
+padding:3% 3% 3% 3% ;
+}
+
+aside{
+height: 40vh;
+float: left;
+text-align: center;
+color: #f0f8ff; 
+display: flex;
+width: 11%;
+flex-direction: column;
+}
+
+.lien{ 
+color: #f0f8ff;
+padding: 1% 2% 1% 2%;
+margin: auto;
+display: flex;
+}
+
+.part2{
+text-align: justify;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5%;
+display: flex;
+align-items: center;
+background-color: rgb(31, 10, 53, 0.5);
+color: #f0f8ff;
+width: 70%;
+}
+
+
+.art2{
+padding: 2%;
+}
+
+
+.imghome{
+width: 100%;
+height:100%;
+float: right;
+height: auto;
+text-align:center;
+}
+
+.imgEtude{
+width: 100%;
+height:100%;
+float: right;
+}
+
+.video2Etude{
+width: 100%;
+height:100%;
+float: right;
+height: auto;
+text-align:center;
+}
+
+.video2street{
+width: 100%;
+height:100%;
+float: left;
+margin-right: 2%;
+margin-left: auto;
+text-align: center;
+}
+
+
+.imgMusique{
+width: 100%;
+height: auto;
+float: right;
+text-align:center;
+}
+
+h4{
+border: 2px solid #333;
+text-align: center;
+color: #ffffff;
+padding: 10px;
+border-radius: 5px;
+font-size: 50px;
+}
+
+footer{
+display: flex;
+justify-content: space-between;
+margin-top: 5%;
+padding: 3% 3% 3% 8% ;
+color: rgb(255, 255, 255);
+background-color: rgba(1, 1, 81, 0.2);
+}
+
+.effet{
+transition: background-color 0.3s ease, font-size 0.3s ease;
+
+}
+
+.effet:hover{
+border-radius: 5%;
+color: rgb(0, 0, 255);
+font-size: larger;
+}
+
+.effetbouton{
+    transition: background-color 0.3s ease, font-size 0.3s ease;
+    
+    }
+    
+.effetbouton:hover{
+justify-content: center;
+border-radius: 10%;
+border-style: double;
+color: blue;
+    }
+
+
+.footerpage{
+justify-content: center;
+display :flex;
+width: 33%;
+}
+
+.footer1part{
+    order:1;
+    flex-direction: column;
+}
+
+.footer2part{
+    order:2;
+    flex-direction: column;
+}
+
+.footer3part{
+    order:3;
+    flex-direction: column;
+}
+
+.footertext{
+margin-top: 0;
+margin-bottom: 0;
+color: aqua;
+}
